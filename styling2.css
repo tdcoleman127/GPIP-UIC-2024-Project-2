@@ -1,0 +1,45 @@
+/*.carddiv {
+    background-color: #f91f1f;
+    color: #ffffff;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+    
+    padding: 10px;
+    margin: 20px;
+}*/
+  
+  /* Create two equal columns that floats next to each other */
+  .container {
+    display: flex;  /* Enables flexible arrangement of child elements */
+    flex-wrap: wrap; /* Allows boxes to wrap to multiple lines if needed */
+    justify-content: center; /* Centers boxes horizontally within the container */
+    margin: 0 auto; /* Centers the container horizontally on the page */
+    
+  }
+  
+  .box, .single-box {
+    width: 350px;  /* Adjust width as needed */
+    height: auto; /* Adjust height as needed */
+    background-color: rgb(33, 144, 255);
+    color: black;
+    border-radius: 50px; /* Creates rounded corners */
+    margin: 10px;  /* Adds spacing between boxes */
+    font-size: 1em;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 10px 10px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.75em;
+  }
+
+  .topbox {
+    background-color: rgb(255, 33, 33);
+    color: white;
+    font-size: 1.75em;
+  }
+  
+  
