@@ -1,45 +1,56 @@
-/*.carddiv {
-    background-color: #f91f1f;
-    color: #ffffff;
-    border-radius: 4px;
-    font-size: 20px;
-    width: 400px;
-    height: 400px;
-    
-    padding: 10px;
-    margin: 20px;
-}*/
-  
-  /* Create two equal columns that floats next to each other */
-  .container {
-    display: flex;  /* Enables flexible arrangement of child elements */
-    flex-wrap: wrap; /* Allows boxes to wrap to multiple lines if needed */
-    justify-content: center; /* Centers boxes horizontally within the container */
-    margin: 0 auto; /* Centers the container horizontally on the page */
-    
-  }
-  
-  .box, .single-box {
-    width: 350px;  /* Adjust width as needed */
-    height: auto; /* Adjust height as needed */
-    background-color: rgb(33, 144, 255);
-    color: black;
-    border-radius: 50px; /* Creates rounded corners */
-    margin: 10px;  /* Adds spacing between boxes */
-    font-size: 1em;
-    font-family: "Roboto", sans-serif;
-    box-shadow: 10px 10px;
-    text-align: center;
-  }
+body {
+  background-color: var(--main-bg-color);
+  text-align: center;
+}
 
-  h2 {
-    font-size: 1.75em;
-  }
+.title {
+  color: var(--light-grey);
+  margin: 20px 0;
+}
 
-  .topbox {
-    background-color: rgb(255, 33, 33);
-    color: white;
-    font-size: 1.75em;
-  }
-  
-  
+#author-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.user-card {
+  border-radius: 15px;
+  width: 300px;
+  height: 450px;
+  background-color: lightgreen;
+  margin: 20px;
+}
+
+.user-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.purple-divider {
+  background-color: indigo;
+  width: 100%;
+  height: 15px;
+}
+
+.author-name {
+  margin: 10px;
+}
+
+.bio {
+  margin: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  color: var(--main-bg-color);
+  font-size: 14px;
+  background-color: var(--golden-yellow);
+  background-image: linear-gradient(#fecc4c, #ffac33);
+  border-color: var(--golden-yellow);
+  border-width: 3px;
+}
