@@ -17,7 +17,7 @@ body {
 .user-card {
   border-radius: 15px;
   width: 250px;
-  height: 400px;
+  height: 425px;
   background-image: linear-gradient(#63b3f9, #d5e4f1);
   margin: 20px;
   font-family: "Lucida Console", "Courier New", monospace;
@@ -74,6 +74,7 @@ body {
 .serial-num {
   color: rgb(95, 93, 93);
   margin: 10px;
+  font-size: medium;
   overflow: hidden;
   text-overflow: ellipsis; 
 }
