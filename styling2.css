@@ -62,10 +62,18 @@ body {
   height: 45px;
 }
 
-.author-name {
+.project-title {
   margin: 10px;
   white-space: nowrap; 
   width: 90%; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+  color: rgb(0, 0, 0);
+}
+
+.serial-num {
+  color: rgb(95, 93, 93);
+  margin: 10px;
   overflow: hidden;
   text-overflow: ellipsis; 
 }
